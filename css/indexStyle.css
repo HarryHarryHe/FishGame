@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.general{
+    width: 100%;
+    height: 675px;
+    margin: auto;
+    background: rgb(0,55,110) url(../src/fishBanner.png) repeat;
+}
+.title{
+    left: -15px;
+    font-size: 48px;
+    /*font-weight: bold;*/
+    color: rgba(255,255,255,0.6);
+    height: 79px;
+    text-align: center;
+    padding-top: 20px;
+    position: relative;
+
+}
+.content{
+    /*background: rosybrown;*/
+    text-align: center;
+    margin-bottom: 17.5px;
+}
+.label{
+    color: white;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 25px;
+    vertical-align: middle;
+}
+.txtpsw{
+    color: black;
+    width: 240px;
+    height: 28px;
+    margin-top: 8.75px;
+    margin-bottom: 8.75px;
+    background:rgba(255,255,255,0.4);
+    outline: none;
+}
+.buttondiv{
+    text-align: center;
+    vertical-align: middle;
+}
+.btn{
+
+    width: 245px;
+    height: 32px;
+    position: relative;
+    background-image: -webkit-linear-gradient(top, #c6b8c6, #2980b9);
+    background-image: -moz-linear-gradient(top, #c6b8c6, #2980b9);
+    background-image: -ms-linear-gradient(top, #c6b8c6, #2980b9);
+    background-image: -o-linear-gradient(top, #c6b8c6, #2980b9);
+    background-image: linear-gradient(to right, #c6b8c6, #2980b9);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    font-family: Arial;
+    font-weight: bold;
+    color: rgba(255,255,255,0.8);
+    font-size: 10px;
+    /*padding: 21px 52.5px 21px 52.5px;*/
+    text-decoration: none;
+    border: none;
+    border-right: solid gray 2px;
+    border-bottom: solid gray 2px;
+    box-shadow: 2px 2px 5px #666;
+    outline: none;
+    margin: 30px 45px 0 45px;
+}
+.btn:hover {
+    background: #2980b9;
+    background-image: -webkit-linear-gradient(top, #c6b8c6, #2980b9);
+    background-image: -moz-linear-gradient(top, #c6b8c6, #2980b9);
+    background-image: -ms-linear-gradient(top, #c6b8c6, #2980b9);
+    background-image: -o-linear-gradient(top, #c6b8c6, #2980b9);
+    background-image: linear-gradient(to bottom, #c6b8c6, #2980b9);
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+}
+.btn:active{
+    box-shadow: 0px 0px 1px #666;
+    border-right: solid gray 1.75px;
+    border-bottom: solid gray 1.75px;
+    top: 1.75px;
+}
+.loginbtn{
+    float: left;
+    position: relative;
+    left: 70px;
+    top: 5px;
+}
+.registerbtn{
+    float: right;
+    position: relative;
+    right: 80px;
+    top: 5px;
+}
+.footer{
+    text-align: center;
+    margin-top: -22px;
+    position: relative;
+    color: #ccc;
+    font-weight: bold;
+    font-size: 10px;
+}
+.link{
+    text-decoration: none;color: mediumblue;
+}
+.changepsw{
+    text-decoration: none;
+    color: #ccc;
+    font-size: 6px;
+    position: relative;
+    left: 17px;
+}
+.changepsw:hover{
+    color: #eee;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.changepsw:active{
+    color: white;
+}
+.back_index{
+    text-decoration: none;
+    color: #ccc;
+    font-size: 6px;
+    position: relative;
+    left: -28px;
+}
+.back_index:hover{
+    color: #eee;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.back_index:active{
+    color: white;
+}

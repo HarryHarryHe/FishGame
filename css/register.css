@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.registerFace{
+    background: rgb(40,150,200) url(../src/rgFish.png) repeat;
+    text-align: center;
+    vertical-align: middle;
+    margin: auto;
+    width: 100%;
+    height: 675px;
+}
+.rheader{
+    color: white;
+    margin: 0 auto;
+    height: 40px;
+    background: rgb(40,150,200) ;
+}
+.rinput{
+    background: rgba(255,255,255,0.4);
+    margin: 4px 0 3px 0;
+}
+.check{
+    position: relative;
+    top: -5px;
+    left: 1px;
+}
+.checktxt{
+    background: rgba(255,255,255,0.4);
+    width: 60px;
+}
+#code{
+    position: relative;
+    top: 7px;
+    margin-left: 10px;
+}
+#code:hover{
+    cursor: pointer;
+}
+.registerbtn{
+    outline: none;
+    border: none;
+    color: white;
+    background: rgba(255,255,255,0.4);
+}
+.registerbtn:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.registerbtn:active{
+    color: green;
+}
